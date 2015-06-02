@@ -1,0 +1,41 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    <div>
+        <h1>
+            Dat Calendar
+        </h1>
+        {% for date in dates %}
+            <div class="date">
+                <table>
+                    <tr>
+                        <td>
+                            {{ date.StartDate|date('Y-m-d') }} - {{ date.EndDate|date('Y-m-d') }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{ date.StartTime|date('H:m') }} - {{ date.EndTime|date('H:m') }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{ date.Title }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{ date.Description }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+    {% stylesheets 'bundles/calendar/css/*' filter='cssrewrite' %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+{% endblock %}

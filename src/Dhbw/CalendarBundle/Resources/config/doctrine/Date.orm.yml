@@ -1,0 +1,31 @@
+Dhbw\CalendarBundle\Entity\Date:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        startDate:
+            type: date
+            column: StartDate
+        endDate:
+            type: date
+            column: EndDate
+        startTime:
+            type: time
+            column: StartTime
+        endTime:
+            type: time
+            column: EndTime
+        title:
+            type: string
+            length: 255
+            column: Title
+        description:
+            type: string
+            length: 255
+            column: Description
+    lifecycleCallbacks: {  }

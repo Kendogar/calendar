@@ -1,0 +1,10 @@
+{% for date in allDates %}
+    {{ date.StartDate|date('Y-m-d') }} - {{ date.EndDate|date('Y-m-d') }}
+    <pre></pre>
+    {{ date.StartTime|date('H:m') }} - {{ date.EndTime|date('H:m') }}
+    <pre></pre>
+    {{ date.Title }}
+    <pre></pre>
+    {{ date.Description }}
+    <pre></pre>
+{% endfor %}

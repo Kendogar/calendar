@@ -1,0 +1,16 @@
+<div class="wrapper">
+    <div class="innerWrapper">
+        <div class="myForm">
+            {{ form_start(form) }}
+            {{ form_widget(form) }}
+            {{ form_end(form) }}
+        </div>
+    </div>
+</div>
+
+
+{% block stylesheets %}
+    {% stylesheets 'bundles/calendar/css/*' filter='cssrewrite' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+{% endblock %}

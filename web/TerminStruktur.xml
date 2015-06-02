@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<terminkalender>
+  <termin>
+       <id>0000</id>
+       <datum>
+            <start>30.08.2015</start>
+            <ende>30.08.2015</ende>
+        </datum>
+        <zeit>
+            <startzeit>14:00</startzeit>
+            <endzeit>16:00</endzeit>
+        </zeit>
+        <titel>Beispiel-Titel eines Termins</titel>
+        <beschreibung>Hier kommt der Text hinein, der den Termin beschreibt</beschreibung>
+    </termin>
+    <termin>
+        <id>0000</id>
+        <datum>
+            <start>30.08.2015</start>
+            <ende>30.08.2015</ende>
+        </datum>
+        <zeit>
+            <startzeit>14:00</startzeit>
+            <endzeit>16:00</endzeit>
+        </zeit>
+        <titel>Beispiel-Titel eines Termins</titel>
+        <beschreibung>Hier kommt der Text hinein, der den Termin beschreibt</beschreibung>
+    </termin>
+    <termin>
+        <id>0000</id>
+        <datum>
+            <start>30.08.2015</start>
+            <ende>30.08.2015</ende>
+        </datum>
+        <zeit>
+            <startzeit>14:00</startzeit>
+            <endzeit>16:00</endzeit>
+        </zeit>
+        <titel>Beispiel-Titel eines Termins</titel>
+        <beschreibung>Hier kommt der Text hinein, der den Termin beschreibt</beschreibung>
+    </termin>
+    <termin>
+        <id>0000</id>
+        <datum>
+            <start>30.08.2015</start>
+            <ende>30.08.2015</ende>
+        </datum>
+        <zeit>
+            <startzeit>14:00</startzeit>
+            <endzeit>16:00</endzeit>
+        </zeit>
+        <titel>Beispiel-Titel eines Termins</titel>
+        <beschreibung>Hier kommt der Text hinein, der den Termin beschreibt</beschreibung>
+    </termin>
+
+</terminkalender>

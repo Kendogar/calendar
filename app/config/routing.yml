@@ -1,0 +1,23 @@
+dhbw_calendar:
+    resource: "@DhbwCalendarBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+main:
+    path: /
+    defaults: { _controller: DhbwCalendarBundle:Calendar:index }
+
+createDate:
+    path: /create/
+    defaults: { _controller: DhbwCalendarBundle:Calendar:create}
+
+findDates:
+    path: /find/
+    defaults: { _controller: DhbwCalendarBundle:Calendar:find }
+
+displayDates:
+    path: /display/
+    defaults: { _controller: DhbwCalendarBundle:Calendar:display }
